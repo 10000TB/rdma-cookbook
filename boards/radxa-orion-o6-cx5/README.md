@@ -23,3 +23,15 @@ Explore running Llama3, and Qwen 2.5 on the two nodes, with RDMA connections.
 * USB to TTL Serial Console cable
     * For serial console access to Radxa Orion O6 board.
     * Example, USB to TTL 5V 3.3V Serial Download Cable, [newerr option](https://www.newegg.com/p/3C6-00SS-00CB3?Item=9SIB3EWKN76438&_gl=1*1l31g4m*_gcl_au*NzQ3MDQyMTQ3LjE3NzEyMTAwNTI.*_ga*MTIyOTk0NTU2Mi4xNzcxMjEwMDUy*_ga_TR46GG8HLR*czE3NzI5MzI2NTUkbzMkZzEkdDE3NzI5MzI5MDMkajYwJGwwJGgxMDE2OTk5MTM4)
+
+## Tips
+
+### Partition the M.2 NVMe SSD on Mac.
+
+`Disk Utility` GUI app on Mac appears to be buggy. So I turned to use command line equivalent, which works for me. For example, I simply partition my NVMe SSD to carve out a 200G GPT patition, and rest for another partition. I simply use the first partition as the boot partition for installing Ubuntu OS, or any OS you like using.
+
+From your mac terminal, Run `diskutil list` to list all disks, and identify the disk name for the external NVMe SSD. In my case, that is `/dev/disk4`. So my cmd is,
+
+```
+$ diskutil partitionDisk /dev/disk4 2 GPT ExFAT "LinuxSystem" 200G ExFAT "LinuxData" R
+```
