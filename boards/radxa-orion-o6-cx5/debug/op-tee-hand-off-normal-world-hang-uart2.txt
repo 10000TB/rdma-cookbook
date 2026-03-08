@@ -1,0 +1,325 @@
+ Serial  Port opened
+�NOTICE:  BL2: v2.7(debug):Beta_2.0.3_release
+NOTICE:  BL2: Built : 21:22:18, Mar 11 2025
+CRYPTO_LITE  TOP_STAT_CFG0_STAT:0x70018c63
+CRYPTO_LITE  Wait SW initialization done!
+CRYPTO_LITE  Software initialization done!
+CRYPTO_LITE  Current host ID: 1
+CRYPTO_LITE      RN_POOL is: Secure
+CRYPTO_LITE      ACA is: Secure
+CRYPTO_LITE      HASH is: Secure
+CRYPTO_LITE      SCA is: Secure
+CRYPTO_LITE      ACA SRAM size:          8192 Bytes
+CRYPTO_LITE      ACA CQ depth:           8
+CRYPTO_LITE      HASH CQ depth:          8
+CRYPTO_LITE      SCA CQ depth:           8
+CRYPTO_LITE      HASH long ctx number:   4
+CRYPTO_LITE      HASH short ctx number:  4
+CRYPTO_LITE      SCA long ctx number:   4
+CRYPTO_LITE      SCA short ctx number:  4
+CRYPTO_LITE      OTP device initial value:  1
+CRYPTO_LITE      OTP shadow registers save to AO
+CRYPTO_LITE      OTP device: NOT exist
+CRYPTO_LITE      TRNG internal source: Exist
+CRYPTO_LITE  CE Version: EAC REL r3p1
+INFO:    Using crypto library 'CIX SEC'
+INFO:    BL2: Doing platform setup
+INFO:    Configuring TrustZone Controller
+INFO:    Total 2 regions set.
+INFO:    Configuring TrustZone Controller
+INFO:    Total 2 regions set.
+INFO:    Configuring TrustZone Controller
+INFO:    Total 2 regions set.
+INFO:    Configuring TrustZone Controller
+INFO:    Total 2 regions set.
+INFO:    BL2: Loading image id 3
+INFO:    Loading image id=7 at address 0x80200000
+INFO:    pb.tfabde:0
+INFO:    Flash load BL3X!
+INFO:    Image id=7 loaded: 0x80200000 - 0x80200650
+INFO:    SE lc: 7, sec: 1, img_id: 7
+INFO:    copy ROTPK from DDR
+INFO:    copy done
+INFO:    rsa len: 384
+padding_type:3
+rsa bits:5
+CRYPTO_LITE  RSA verify pass, pkcs2v1
+INFO:    md_alg: 6
+INFO:    hash_len: 32
+INFO:    Loading image id=9 at address 0x80200000
+INFO:    pb.tfabde:0
+INFO:    Flash load BL3X!
+INFO:    Image id=9 loaded: 0x80200000 - 0x8020065a
+INFO:    SE lc: 7, sec: 1, img_id: 9
+INFO:    rsa len: 384
+padding_type:3
+rsa bits:5
+CRYPTO_LITE  RSA verify pass, pkcs2v1
+INFO:    Loading image id=13 at address 0x80200000
+INFO:    pb.tfabde:0
+INFO:    Flash load BL3X!
+INFO:    Image id=13 loaded: 0x80200000 - 0x80200530
+INFO:    SE lc: 7, sec: 1, img_id: 13
+INFO:    rsa len: 384
+padding_type:3
+rsa bits:5
+CRYPTO_LITE  RSA verify pass, pkcs2v1
+INFO:    Loading image id=3 at address 0x80200000
+INFO:    pb.tfabde:0
+INFO:    Flash load BL3X!
+INFO:    Image id=3 loaded: 0x80200000 - 0x8021961d
+INFO:    SE lc: 7, sec: 1, img_id: 3
+INFO:    BL2: Loading image id 4
+INFO:    Loading image id=10 at address 0x80500000
+INFO:    pb.tfabde:0
+INFO:    Flash load BL3X!
+INFO:    Image id=10 loaded: 0x80500000 - 0x80500668
+INFO:    SE lc: 7, sec: 1, img_id: 10
+INFO:    rsa len: 384
+padding_type:3
+rsa bits:5
+CRYPTO_LITE  RSA verify pass, pkcs2v1
+INFO:    Loading image id=14 at address 0x80500000
+INFO:    pb.tfabde:0
+INFO:    Flash load BL3X!
+INFO:    Image id=14 loaded: 0x80500000 - 0x805005ce
+INFO:    SE lc: 7, sec: 1, img_id: 14
+INFO:    rsa len: 384
+padding_type:3
+rsa bits:5
+CRYPTO_LITE  RSA verify pass, pkcs2v1
+INFO:    Loading image id=4 at address 0x80500000
+INFO:    pb.tfabde:0
+INFO:    Flash load BL3X!
+INFO:    Image id=4 loaded: 0x80500000 - 0x805cd8d8
+INFO:    SE lc: 7, sec: 1, img_id: 4
+INFO:    BL2: Loading image id 5
+INFO:    Loading image id=36 at address 0x84400000
+INFO:    pb.tfabde:0
+INFO:    Flash load BL3X!
+INFO:    Image id=36 loaded: 0x84400000 - 0x8440063a
+INFO:    SE lc: 7, sec: 1, img_id: 36
+INFO:    copy ROTPK from DDR
+INFO:    copy done
+INFO:    rsa len: 384
+padding_type:3
+rsa bits:5
+CRYPTO_LITE  RSA verify pass, pkcs2v1
+INFO:    md_alg: 6
+INFO:    hash_len: 32
+INFO:    Loading image id=11 at address 0x84400000
+INFO:    pb.tfabde:0
+INFO:    Flash load BL3X!
+INFO:    Image id=11 loaded: 0x84400000 - 0x8440066b
+INFO:    SE lc: 7, sec: 1, img_id: 11
+INFO:    rsa len: 384
+padding_type:3
+rsa bits:5
+CRYPTO_LITE  RSA verify pass, pkcs2v1
+INFO:    Loading image id=15 at address 0x84400000
+INFO:    pb.tfabde:0
+INFO:    Flash load BL3X!
+INFO:    Image id=15 loaded: 0x84400000 - 0x84400541
+INFO:    SE lc: 7, sec: 1, img_id: 15
+INFO:    rsa len: 384
+padding_type:3
+rsa bits:5
+CRYPTO_LITE  RSA verify pass, pkcs2v1
+INFO:    Loading image id=5 at address 0x84400000
+INFO:    pb.tfabde:0
+INFO:    Flash load BL3X!
+INFO:    Image id=5 loaded: 0x84400000 - 0x84600000
+INFO:    SE lc: 7, sec: 1, img_id: 5
+NOTICE:  BL2: Booting BL31
+INFO:    Entry point address = 0x80200000
+INFO:    SPSR = 0x3cd
+INFO:    Start sky1 scmi server!
+NOTICE:  BL31: v2.7(debug):Beta_2.0.3_release
+NOTICE:  BL31: Built : 21:22:18, Mar 11 2025
+INFO:    boot_core_index 10 
+INFO:    cpu mask 0xa000
+INFO:    GICv4 without legacy support detected.
+INFO:    ARM GICv4 driver initialized in EL3
+INFO:    Maximum SPI INTID supported: 543
+INFO:    drv_mbox_init
+INFO:    Send CMD: ECHO Request
+NOTICE:  Send CMD: 0x82000001
+INFO:    Got Echo RSP, Mbox channel is ready...
+INFO:    plat_cix_scmi_setup
+INFO:    SCMI driver initialized
+INFO:    ###########ni700-qos setting###########################
+INFO:    [MMHUB_CSI_SLV0]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_CSI_SLV1]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_CSI_SLV0]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_CSI_SLV0]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU0_AFBC_SLV]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU0_SLV0]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU0_SLV1]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU1_AFBC_SLV]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU1_SLV0]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU1_SLV1]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU2_AFBC_SLV]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU2_SLV0]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU2_SLV1]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU3_AFBC_SLV]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU3_SLV0]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU3_SLV1]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU4_AFBC_SLV]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU4_SLV0]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_DPU4_SLV1]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_ISP_AFBC_SLV]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_ISP_SLV0]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_ISP_SLV1]:override--1 read_qos--0f write_qos--0f 
+INFO:    [MMHUB_NPU_SLV0]:override--1 read_qos--0d write_qos--0d 
+INFO:    [MMHUB_NPU_SLV1]:override--1 read_qos--0d write_qos--0d 
+INFO:    [MMHUB_VPU_SLV0]:override--1 read_qos--0d write_qos--0d 
+INFO:    [MMHUB_VPU_SLV1]:override--1 read_qos--0d write_qos--0d 
+INFO:    [SYSHUB_AUIDO_SLV]:override--1 read_qos--0f write_qos--0f 
+INFO:    [SYSHUB_USB2_0_SLV]:override--1 read_qos--08 write_qos--08 
+INFO:    [SYSHUB_USB2_1_SLV]:override--1 read_qos--08 write_qos--08 
+INFO:    [SYSHUB_USB2_2_SLV]:override--1 read_qos--08 write_qos--08 
+INFO:    [SYSHUB_USB2_3_SLV]:override--1 read_qos--0f write_qos--0f 
+INFO:    [SYSHUB_USB3_0_SLV]:override--1 read_qos--08 write_qos--08 
+INFO:    [SYSHUB_USB3_1_SLV]:override--1 read_qos--08 write_qos--08 
+INFO:    [SYSHUB_USBC_0_SLV]:override--1 read_qos--08 write_qos--08 
+INFO:    [SYSHUB_USBC_1_SLV]:override--1 read_qos--08 write_qos--08 
+INFO:    [SYSHUB_USBC_2_SLV]:override--1 read_qos--08 write_qos--08 
+INFO:    [SYSHUB_USBC_DRD_SLV]:override--1 read_qos--08 write_qos--08 
+INFO:    ######################################################
+INFO:    ###########ci700-qos setting###########################
+INFO:    [CI700_RNF0]:override--1 read_qos--0d write_qos--0d 
+INFO:    [CI700_RNF1]:override--1 read_qos--0d write_qos--0d 
+INFO:    [CI700_RNF2]:override--1 read_qos--0d write_qos--0d 
+INFO:    [CI700_RNF3]:override--1 read_qos--0d write_qos--0d 
+INFO:    [CI700_GPU_RNI64_S0]:override[r-w]--[1-1] read_qos--0b write_qos--0b 
+INFO:    [CI700_GPU_RNI64_S1]:override[r-w]--[1-1] read_qos--0b write_qos--0b 
+INFO:    [CI700_GPU_RNI72_S0]:override[r-w]--[1-1] read_qos--0b write_qos--0b 
+INFO:    [CI700_GPU_RNI72_S1]:override[r-w]--[1-1] read_qos--0b write_qos--0b 
+INFO:    [CI700_PCIE]:override[r-w]--[1-1] read_qos--08 write_qos--08 
+INFO:    [CI700_SYSHUB_SMMU]:override[r-w]--[1-1] read_qos--0f write_qos--0f 
+INFO:    [CI700_DFD_TMC]:override[r-w]--[1-1] read_qos--0f write_qos--0f 
+INFO:    [CI700_MMHUB_SMMU]:override[r-w]--[1-1] read_qos--0f write_qos--0f 
+INFO:    [CI700_PCIEHUB_SMMU]:override[r-w]--[1-1] read_qos--0f write_qos--0f 
+INFO:    ######################################################
+INFO:    cix_qspi_init start...
+INFO:    cix_qspi_init end...
+INFO:    BL31: Initialising Exception Handling Framework
+INFO:    BL31: Initializing runtime services
+INFO:    last reboot reason:0x0 
+INFO:    BL31: cortex_hunter: CPU workaround for cve_2022_23960 was applied
+INFO:    SDEI platform setup
+INFO:    BL31: Initializing BL32
+E/TC:10    console_init:108 Cix uart register successful
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Embedded Bootloader                                                           
+                                                                                
+  > 1. Debian GNU/Linux 12 (bookworm)                                           
+    2. Update BIOS to 1.1.0-1                                                   
+    3. Reboot Into Firmware Interface                                           
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+  Default: (1) Debian GNU/Linux 12 (bookworm)                                   
+                                                                                
+  F: UEFI setup | B: Reboot | O: Shutdown                                       
+  Arrow keys: Select | Enter: Boot | E: Edit bootargs | Esc: Exit               
+                                                                                
+[INFO] embloader_loader_boot: booting Debian GNU/Linux 12 (bookworm) (RadxaOS-6.
+6.89-3-sky1) ...
+[INFO] embloader_loader_boot_sdboot: booting sdboot loader Debian GNU/Linux 12 (
+bookworm) ...
+[DEBUG] sdboot_boot_loader_invoke: sdboot loader use version 6.6.89-3-sky1 as kt
+ype
+[INFO] linux_load_kernel: loading kernel /RadxaOS/6.6.89-3-sky1/linux
+[INFO] linux_load_kernel: loaded kernel /RadxaOS/6.6.89-3-sky1/linux size 34.99M
+iB (36690432 bytes)
+[INFO] linux_load_kernel: kernel /RadxaOS/6.6.89-3-sky1/linux at 0x7f78e2000 wit
+h 8958 pages
+[INFO] linux_load_initramfs: loading initramfs /RadxaOS/6.6.89-3-sky1/initrd.img
+-6.6.89-3-sky1
+[INFO] linux_load_initramfs: loaded initramfs /RadxaOS/6.6.89-3-sky1/initrd.img-
+6.6.89-3-sky1 size 47.30MiB (49596987 bytes)
+[INFO] linux_load_initramfs: loaded 1 initramfs size 47.30MiB (49596987 bytes)
+[INFO] linux_load_initramfs: initramfs collections (1) at 0xfd073000 with 12109 
+pages
+[INFO] linux_load_bootargs: loaded bootargs root=UUID=ce95976e-7c04-4b82-8251-c7
+80b6b3fac1 console=ttyAMA0,115200n8 earlycon=pl011,0x040d0000 acpi=force quiet s
+plash loglevel=4 rw earlycon consoleblank=0 console=tty1 coherent_pool=2M irqchi
+p.gicv3_pseudo_nmi=0 cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory s
+wapaccount=1 kasan=off
+[DEBUG] linux_data_load: linux boot data prepared
+[WARNING] linux_load_default_dtb: no valid dtb found
+[WARNING] embloader_prepare_boot: load device tree failed
+[INFO] embloader_fetch_fdt: found existing fdt in system table at 0x7fce6d018
+[WARNING] linux_load_dtbos: no dtbo directory configured, skip apply dtbo
+[INFO] embloader_start_efi: load efi image at 0x7f78e2000...
+[INFO] embloader_start_efi: use cmdline root=UUID=ce95976e-7c04-4b82-8251-c780b6
+b3fac1 console=ttyAMA0,115200n8 earlycon=pl011,0x040d0000 acpi=force quiet splas
+h loglevel=4 rw earlycon consoleblank=0 console=tty1 coherent_pool=2M irqchip.gi
+cv3_pseudo_nmi=0 cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory swapa
+ccount=1 kasan=off
+[INFO] embloader_start_efi: start efi image...
+[    0.000000] [pid:0,cpu0,swapper]Booting Linux on physical CPU 0x0000000a00 [0x410fd811]
+[    0.000000] [pid:0,cpu0,swapper]Linux version 6.6.89-3-sky1 (vscode@0f60a8838317) (aarch64-linux-gnu-gcc (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #3 SMP PREEMPT Mon Dec 15 11:06:55 UTC 2025
+[    0.000000] [pid:0,cpu0,swapper]KASLR disabled due to lack of seed
+[    0.000000] [pid:0,cpu0,swapper]Machine model: Radxa Orion O6
+[    0.000000] [pid:0,cpu0,swapper]earlycon: pl11 at MMIO 0x00000000040d0000 (options '')
+[    0.000000] [pid:0,cpu0,swapper]printk: bootconsole [pl11] enabled
+I/TC: Secondary CPU 0 initializing
+I/TC: Secondary CPU 0 switching to normal world boot
+I/TC: Secondary CPU 1 initializing
+I/TC: Secondary CPU 1 switching to normal world boot
+I/TC: Secondary CPU 2 initializing
+I/TC: Secondary CPU 2 switching to normal world boot
+I/TC: Secondary CPU 3 initializing
+I/TC: Secondary CPU 3 switching to normal world boot
+I/TC: Secondary CPU 4 initializing
+I/TC: Secondary CPU 4 switching to normal world boot
+I/TC: Secondary CPU 5 initializing
+I/TC: Secondary CPU 5 switching to normal world boot
+I/TC: Secondary CPU 6 initializing
+I/TC: Secondary CPU 6 switching to normal world boot
+I/TC: Secondary CPU 7 initializing
+I/TC: Secondary CPU 7 switching to normal world boot
+I/TC: Secondary CPU 8 initializing
+I/TC: Secondary CPU 8 switching to normal world boot
+I/TC: Secondary CPU 9 initializing
+I/TC: Secondary CPU 9 switching to normal world boot
+I/TC: Secondary CPU 11 initializing
+I/TC: Secondary CPU 11 switching to normal world boot
+
+(hang here....)
