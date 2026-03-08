@@ -1,0 +1,305 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GROWROOT: CHANGED: partition=3 start=2162688 old: size=16104473 end=18267160 new: size=1951362447 end=1953525134
+[  OK  ] Finished plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data.
+[  OK  ] Finished systemd-machine-id-commit.service - Commit a transient machine-id on disk.
+[  OK  ] Finished systemd-tmpfiles-setup.service - Create System Files and Directories.
+[  OK  ] Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+[  OK  ] Started haveged.service - Entropy Daemon based on the HAVEGE algorithm.
+         Starting systemd-networkd.service - Network Configuration...
+         Starting systemd-timesyncd.service - Network Time Synchronization...
+         Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+[  OK  ] Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+[  OK  ] Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+[  OK  ] Found device dev-ttyAMA0.device - /dev/ttyAMA0.
+[  OK  ] Found device dev-disk-by\x2duuid-9C26\x2d8CEE.device - Samsung SSD 990 EVO Plus 1TB efi.
+         Starting plymouth-start.service - Show Plymouth Boot Screen...
+         Starting systemd-fsck@dev-disk-by\x2duuid-9C26\x2d8CEE.service - File System Check on /dev/disk/by-uuid/9C26-8CEE...
+[  OK  ] Started systemd-fsckd.service - File System Check Daemon to report status.
+[  OK  ] Started plymouth-start.service - Show Plymouth Boot Screen.
+[  OK  ] Started systemd-ask-password-plymouth.path - Forward Password Requests to Plymouth Directory Watch.
+[  OK  ] Reached target cryptsetup.target - Local Encrypted Volumes.
+[  OK  ] Finished systemd-fsck@dev-disk-by\x2duuid-9C26\x2d8CEE.service - File System Check on /dev/disk/by-uuid/9C26-8CEE.
+[    3.315930] [pid:444,cpu6,(udev-worker)]sky1-pinctrl CIXHA016:00: does not have pin group pinctrl_substrate_i2s5_dbg
+[    3.327373] [pid:444,cpu8,(udev-worker)]sky1-pinctrl CIXHA016:00: Pin group cannot be found
+[    3.366554] [pid:444,cpu9,(udev-worker)]sky1-pinctrl CIXHA016:00: does not have pin group pinctrl_substrate_i2s6_dbg
+[    3.377213] [pid:444,cpu9,(udev-worker)]sky1-pinctrl CIXHA016:00: Pin group cannot be found
+[    3.392498] [pid:444,cpu6,(udev-worker)]sky1-pinctrl CIXHA016:00: does not have pin group pinctrl_substrate_i2s7_dbg
+[    3.403993] [pid:444,cpu6,(udev-worker)]sky1-pinctrl CIXHA016:00: Pin group cannot be found
+[    3.418040] [pid:444,cpu6,(udev-worker)]sky1-pinctrl CIXHA016:00: does not have pin group pinctrl_substrate_i2s8_dbg
+[    3.428686] [pid:444,cpu6,(udev-worker)]sky1-pinctrl CIXHA016:00: Pin group cannot be found
+[    3.437867] [pid:444,cpu11,(udev-worker)]sky1-pinctrl CIXHA016:00: does not have pin group pinctrl_substrate_i2s9_dbg
+[    3.448835] [pid:444,cpu11,(udev-worker)]sky1-pinctrl CIXHA016:00: Pin group cannot be found
+[  OK  ] Created slice system-systemd\x2dbacklight.slice - Slice /system/systemd-backlight.
+         Starting systemd-backlight@backlight:CIXH5041:00.service - Load/Save Screen Backlight Brightness of backlight:CIXH5041:00...
+[  OK  ] Finished systemd-backlight@backlight:CIXH5041:00.service - Load/Save Screen Backlight Brightness of backlight:CIXH5041:00.
+[  OK  ] Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+         Starting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+         Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+         Starting modprobe@loop.service - Load Kernel Module loop...
+[  OK  ] Finished modprobe@dm_mod.service - Load Kernel Module dm_mod.
+[  OK  ] Finished modprobe@efi_pstore.service - Load Kernel Module efi_pstore.
+[  OK  ] Finished modprobe@loop.service - Load Kernel Module loop.
+[    3.809937] [pid:448,cpu0,(udev-worker)]armchina CIXH4000:00: sky1_npu_probe: armchina_aipu_probe done
+         Mounting boot-efi.mount - /boot/efi...
+         Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+[  OK  ] Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+[  OK  ] Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+[  OK  ] Mounted boot-efi.mount - /boot/efi.
+[  OK  ] Finished systemd-boot-update.service - Automatic Boot Loader Update.
+[  OK  ] Started systemd-timesyncd.service - Network Time Synchronization.
+[  OK  ] Reached target sysinit.target - System Initialization.
+[  OK  ] Started cups.path - CUPS Scheduler.
+[  OK  ] Started local-apt-repository.path.
+[  OK  ] Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+[  OK  ] Reached target paths.target - Path Units.
+[  OK  ] Reached target time-set.target - System Time Set.
+[  OK  ] Started apt-daily.timer - Daily apt download activities.
+[  OK  ] Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+[  OK  ] Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+[  OK  ] Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+[  OK  ] Started fstrim.timer - Discard unused blocks once a week.
+[  OK  ] Started fwupd-refresh.timer - Refresh fwupd metadata regularly.
+[  OK  ] Started man-db.timer - Daily man-db regeneration.
+[  OK  ] Reached target timers.target - Timer Units.
+[  OK  ] Listening on avahi-daemon.socket - Avahi mDNS/DNS-SD Stack Activation Socket.
+[  OK  ] Listening on cups.socket - CUPS Scheduler.
+[  OK  ] Listening on dbus.socket - D-Bus System Message Bus Socket.
+[  OK  ] Listening on ssh.socket - OpenBSD Secure Shell server socket.
+[  OK  ] Reached target sockets.target - Socket Units.
+[  OK  ] Reached target basic.target - Basic System.
+         Starting accounts-daemon.service - Accounts Service...
+         Starting alsa-restore.service - Save/Restore Sound Card State...
+         Starting avahi-daemon.service - Avahi mDNS/DNS-SD Stack...
+         Starting dbus.service - D-Bus System Message Bus...
+         Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+[  OK  ] Started irqbalance.service - irqbalance daemon.
+         Starting lm-sensors.service - Initialize hardware monitoring sensors...
+         Starting load-common-modules.service - Load common modules...
+         Starting load-gpu-modules.service - Load gpu modules...
+         Starting load-isp-modules.service - Load isp kernel modules...
+[  OK  ] Started rsetup.service - rsetup configuration service.
+         Starting rtkit-daemon.service - RealtimeKit Scheduling Policy Service...
+         Starting systemd-logind.service - User Login Management...
+         Starting udisks2.service - Disk Manager...
+         Starting upower.service - Daemon for power management...
+         Starting zramswap.service - Linux zramswap setup...
+[  OK  ] Started systemd-networkd.service - Network Configuration.
+[  OK  ] Started dbus.service - D-Bus System Message Bus.
+[  OK  ] Finished alsa-restore.service - Save/Restore Sound Card State.
+[  OK  ] Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+[  OK  ] Finished load-gpu-modules.service - Load gpu modules.
+[FAILED] Failed to start load-isp-modules.service - Load isp kernel modules.
+See 'systemctl status load-isp-modules.service' for details.
+[  OK  ] Reached target sound.target - Sound Card.
+         Starting NetworkManager.service - Network Manager...
+         Starting systemd-fsck@dev-disk-by\x2duuid-9C26\x2d3AB6.service - File System Check on /dev/disk/by-uuid/9C26-3AB6...
+         Starting systemd-networkd-wait-online.service - Wait for Network to be Configured...
+         Starting wpa_supplicant.service - WPA supplicant...
+[  OK  ] Started rtkit-daemon.service - RealtimeKit Scheduling Policy Service.
+[  OK  ] Started avahi-daemon.service - Avahi mDNS/DNS-SD Stack.
+         Starting modprobe@drm.service - Load Kernel Module drm...
+[  OK  ] Finished systemd-fsck@dev-disk-by\x2duuid-9C26\x2d3AB6.service - File System Check on /dev/disk/by-uuid/9C26-3AB6.
+         Mounting config.mount - /config...
+         Starting polkit.service - Authorization Manager...
+[  OK  ] Finished modprobe@drm.service - Load Kernel Module drm.
+[  OK  ] Mounted config.mount - /config.
+[  OK  ] Started wpa_supplicant.service - WPA supplicant.
+[  OK  ] Started polkit.service - Authorization Manager.
+[  OK  ] Started accounts-daemon.service - Accounts Service.
+[  OK  ] Started systemd-logind.service - User Login Management.
+[  OK  ] Started NetworkManager.service - Network Manager.
+[  OK  ] Reached target network.target - Network.
+[  OK  ] Reached target radxa-otgutils.target - Radxa USB OTG services.
+         Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+         Starting cups.service - CUPS Scheduler...
+[  OK  ] Started isp-daemon.service - ISP Daemon.
+         Starting ssh.service - OpenBSD Secure Shell server...
+         Starting systemd-user-sessions.service - Permit User Sessions...
+[  OK  ] Finished zramswap.service - Linux zramswap setup.
+         Starting systemd-hostnamed.service - Hostname Service...
+[  OK  ] Finished lm-sensors.service - Initialize hardware monitoring sensors.
+[  OK  ] Finished systemd-user-sessions.service - Permit User Sessions.
+[  OK  ] Started upower.service - Daemon for power management.
+         Starting gdm.service - GNOME Display Manager...
+         Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+[  OK  ] Started cups.service - CUPS Scheduler.
+[  OK  ] Started udisks2.service - Disk Manager.
+[  OK  ] Started ssh.service - OpenBSD Secure Shell server.
+[  OK  ] Started systemd-hostnamed.service - Hostname Service.
+[  OK  ] Finished load-common-modules.service - Load common modules.
+         Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+[  OK  ] Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+
+Debian GNU/Linux 12 RadxaOrionO6 ttyAMA0
+
+RadxaOrionO6 login: radxa
+Password: 
+Linux RadxaOrionO6 6.6.89-3-sky1 #3 SMP PREEMPT Mon Dec 15 11:06:55 UTC 2025 aarch64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ ls
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ ispci
+-bash: ispci: command not found
+radxa@RadxaOrionO6:~$ lspci
+00:00.0 PCI bridge: CIX Technology Group Co., Ltd. CIX P1 CD8180 PCI Express Root Port
+01:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8126 5GbE Controller (rev 01)
+30:00.0 PCI bridge: CIX Technology Group Co., Ltd. CIX P1 CD8180 PCI Express Root Port
+31:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8126 5GbE Controller (rev 01)
+90:00.0 PCI bridge: CIX Technology Group Co., Ltd. CIX P1 CD8180 PCI Express Root Port
+91:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller PM9C1a (DRAM-less)
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ lscpu
+Architecture:             aarch64
+  CPU op-mode(s):         64-bit
+  Byte Order:             Little Endian
+CPU(s):                   12
+  On-line CPU(s) list:    0-11
+Vendor ID:                ARM
+  Model name:             Cortex-A720
+    Model:                1
+    Thread(s) per core:   1
+    Core(s) per socket:   2
+    Socket(s):            1
+    Stepping:             r0p1
+    Frequency boost:      disabled
+    CPU(s) scaling MHz:   31%
+    CPU max MHz:          2600.0000
+    CPU min MHz:          800.0000
+    BogoMIPS:             2000.00
+    Flags:                fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fph
+                          p asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 s
+                          m3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc fl
+                          agm sb paca pacg dcpodp sve2 sveaes svepmull svebitper
+                          m svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf1
+                          6 dgh bti mte ecv afp mte3 wfxt
+  Model name:             Cortex-A520
+    Model:                1
+    Thread(s) per core:   1
+    Core(s) per socket:   4
+    Socket(s):            1
+    Stepping:             r0p1
+    CPU(s) scaling MHz:   89%
+    CPU max MHz:          1800.0000
+    CPU min MHz:          800.0000
+    BogoMIPS:             2000.00
+    Flags:                fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fph
+                          p asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 s
+                          m3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc fl
+                          agm sb paca pacg dcpodp sve2 sveaes svepmull svebitper
+                          m svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf1
+                          6 dgh bti mte ecv afp mte3 wfxt
+  Model name:             Cortex-A720
+    Model:                1
+    Thread(s) per core:   1
+    Core(s) per socket:   6
+    Socket(s):            1
+    Stepping:             r0p1
+    CPU(s) scaling MHz:   35%
+    CPU max MHz:          2500.0000
+    CPU min MHz:          800.0000
+    BogoMIPS:             2000.00
+    Flags:                fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fph
+                          p asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 s
+                          m3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc fl
+                          agm sb paca pacg dcpodp sve2 sveaes svepmull svebitper
+                          m svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf1
+                          6 dgh bti mte ecv afp mte3 wfxt
+NUMA:                     
+  NUMA node(s):           1
+  NUMA node0 CPU(s):      0-11
+Vulnerabilities:          
+  Gather data sampling:   Not affected
+  Itlb multihit:          Not affected
+  L1tf:                   Not affected
+  Mds:                    Not affected
+  Meltdown:               Not affected
+  Mmio stale data:        Not affected
+  Reg file data sampling: Not affected
+  Retbleed:               Not affected
+  Spec rstack overflow:   Not affected
+  Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prct
+                          l
+  Spectre v1:             Mitigation; __user pointer sanitization
+  Spectre v2:             Mitigation; CSV2, BHB
+  Srbds:                  Not affected
+  Tsx async abort:        Not affected
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ ifconfig
+-bash: ifconfig: command not found
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ ls
+radxa@RadxaOrionO6:~$ ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 00:48:54:20:9b:19 brd ff:ff:ff:ff:ff:ff
+    altname enp1s0
+3: eth1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 00:48:54:20:9b:1a brd ff:ff:ff:ff:ff:ff
+    altname enp49s0
+radxa@RadxaOrionO6:~$ ip link
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN mode DEFAULT group default qlen 1000
+    link/ether 00:48:54:20:9b:19 brd ff:ff:ff:ff:ff:ff
+    altname enp1s0
+3: eth1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN mode DEFAULT group default qlen 1000
+    link/ether 00:48:54:20:9b:1a brd ff:ff:ff:ff:ff:ff
+    altname enp49s0
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ dmidecode
+-bash: dmidecode: command not found
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev             32G     0   32G   0% /dev
+tmpfs           6.3G  2.5M  6.3G   1% /run
+/dev/nvme0n1p3  916G  5.8G  873G   1% /
+tmpfs            32G     0   32G   0% /dev/shm
+tmpfs           5.0M   12K  5.0M   1% /run/lock
+efivarfs        160K  9.8K  151K   7% /sys/firmware/efi/efivars
+/dev/nvme0n1p2 1022M  108M  915M  11% /boot/efi
+/dev/nvme0n1p1   16M  402K   16M   3% /config
+tmpfs           6.3G   44K  6.3G   1% /run/user/106
+tmpfs           6.3G   36K  6.3G   1% /run/user/1000
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
