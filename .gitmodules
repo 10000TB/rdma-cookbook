@@ -1,3 +1,6 @@
 [submodule "boards/radxa-orion-o6-cx5/edk2-cix"]
 	path = boards/radxa-orion-o6-cx5/edk2-cix
 	url = https://github.com/radxa-pkg/edk2-cix
+[submodule "boards/radxa-orion-o6-cx5/linux-sky1"]
+	path = boards/radxa-orion-o6-cx5/linux-sky1
+	url = https://github.com/radxa-pkg/linux-sky1.git
