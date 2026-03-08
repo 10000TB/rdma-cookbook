@@ -6,6 +6,8 @@ Explore RDMA connection with two Mellanox Connect-X 5 Adapters and two Radxa Ori
 
 ![2-radxa-orion-o6-2-cx5](2-radxa-orion-o6-2-cx5.svg)
 
+*[Google Drawing Source](https://docs.google.com/drawings/d/1ZwIgaC7xvciscB6xi67RankqfdwDEHLDWSmZ_Fm2css/edit?usp=sharing)*
+
 ## Parts & Specs
 
 * 2 x Radxa Orion O6 AI PC, [spec](https://radxa.com/products/orion/o6/)
