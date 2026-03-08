@@ -35,3 +35,57 @@ From your mac terminal, Run `diskutil list` to list all disks, and identify the 
 ```
 $ diskutil partitionDisk /dev/disk4 2 GPT ExFAT "LinuxSystem" 200G ExFAT "LinuxData" R
 ```
+
+Example output, in my case,
+
+```
+xuehaohu@Mac rdma-cookbook % diskutil partitionDisk /dev/disk4 2 GPT ExFAT "LinuxSystem" 200G ExFAT "LinuxData" R
+Started partitioning on disk4
+Unmounting disk
+Creating the partition map
+Waiting for partitions to activate
+Formatting disk4s2 as ExFAT with name LinuxSystem
+Volume name      : LinuxSystem
+Partition offset : 411648 sectors (210763776 bytes)
+Volume size      : 390623232 sectors (199999094784 bytes)
+Bytes per sector : 512
+Bytes per cluster: 131072
+FAT offset       : 2048 sectors (1048576 bytes)
+# FAT sectors    : 12288
+Number of FATs   : 1
+Cluster offset   : 14336 sectors (7340032 bytes)
+# Clusters       : 1525816
+Volume Serial #  : 69acea86
+Bitmap start     : 2
+Bitmap file size : 190727
+Upcase start     : 4
+Upcase file size : 5836
+Root start       : 5
+Mounting disk
+Formatting disk4s3 as ExFAT with name LinuxData
+Volume name      : LinuxData
+Partition offset : 391034880 sectors (200209858560 bytes)
+Volume size      : 1562488832 sectors (799994281984 bytes)
+Bytes per sector : 512
+Bytes per cluster: 131072
+FAT offset       : 2048 sectors (1048576 bytes)
+# FAT sectors    : 49152
+Number of FATs   : 1
+Cluster offset   : 51200 sectors (26214400 bytes)
+# Clusters       : 6103272
+Volume Serial #  : 69acea87
+Bitmap start     : 2
+Bitmap file size : 762909
+Upcase start     : 8
+Upcase file size : 5836
+Root start       : 9
+Mounting disk
+Finished partitioning on disk4
+/dev/disk4 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk4
+   1:                        EFI EFI                     209.7 MB   disk4s1
+   2:       Microsoft Basic Data LinuxSystem             200.0 GB   disk4s2
+   3:       Microsoft Basic Data LinuxData               800.0 GB   disk4s3
+xuehaohu@Mac rdma-cookbook %
+```
