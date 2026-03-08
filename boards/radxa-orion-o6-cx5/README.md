@@ -13,6 +13,7 @@ Explore RDMA connection with two Mellanox Connect-X 5 Adapters and two Radxa Ori
 * 2 x Radxa Orion O6 AI PC, [spec](https://radxa.com/products/orion/o6/)
 * 2 x ConnectX-5 Adapter, [spec](https://network.nvidia.com/files/doc-2020/pb-connectx-5-en-card.pdf)
 * 1 x QSFP DAC (Direct Attach Copper) cable
+    * Example, 10Gtek 40G QSFP+ DAC Cable, [amazon option](https://a.co/d/0aWIE4tS)
 * 2 x M.2 NVMe SSD as boot drives.
     * Example: SAMSUNG 990 EVO PLUS SSD 1TB, [newegg option](https://www.newegg.com/samsung-1tb-990-evo-plus-nvme-2-0/p/N82E16820147899?Item=N82E16820147899&_gl=1*9v7i07*_gcl_au*NzQ3MDQyMTQ3LjE3NzEyMTAwNTI.*_ga*MTIyOTk0NTU2Mi4xNzcxMjEwMDUy*_ga_TR46GG8HLR*czE3NzI5MzI2NTUkbzMkZzEkdDE3NzI5MzI3MjEkajU0JGwwJGgxMDE2OTk5MTM4)
 * 1 x M.2 NVMe SSD Enclosure
