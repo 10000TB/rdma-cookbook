@@ -1,0 +1,3 @@
+[submodule "boards/radxa-orion-o6-cx5/edk2-cix"]
+	path = boards/radxa-orion-o6-cx5/edk2-cix
+	url = https://github.com/radxa-pkg/edk2-cix
