@@ -1,0 +1,585 @@
+
+
+
+
+
+[  OK  ] Finished plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data.
+[  OK  ] Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+[  OK  ] Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+         Starting plymouth-start.service - Show Plymouth Boot Screen...
+[  OK  ] Finished systemd-tmpfiles-setup.service - Create System Files and Directories.
+[  OK  ] Found device dev-ttyAMA0.device - /dev/ttyAMA0.
+[  OK  ] Started haveged.service - Entropy Daemon based on the HAVEGE algorithm.
+         Starting systemd-timesyncd.service - Network Time Synchronization...
+         Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+[  OK  ] Started plymouth-start.service - Show Plymouth Boot Screen.
+[  OK  ] Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+[  OK  ] Started systemd-ask-password-plymouth.path - Forward Password Requests to Plymouth Directory Watch.
+[  OK  ] Reached target cryptsetup.target - Local Encrypted Volumes.
+[  OK  ] Found device dev-disk-by\x2duuid-9C26\x2d8CEE.device - Samsung SSD 990 EVO Plus 1TB efi.
+         Starting systemd-fsck@dev-disk-by\x2duuid-9C26\x2d8CEE.service - File System Check on /dev/disk/by-uuid/9C26-8CEE...
+[  OK  ] Started systemd-fsckd.service - File System Check Daemon to report status.
+[  OK  ] Finished systemd-fsck@dev-disk-by\x2duuid-9C26\x2d8CEE.service - File System Check on /dev/disk/by-uuid/9C26-8CEE.
+[    2.414929] [pid:407,cpu8,(udev-worker)]sky1-pinctrl CIXHA016:00: does not have pin group pinctrl_substrate_i2s5_dbg
+[    2.426109] [pid:407,cpu8,(udev-worker)]sky1-pinctrl CIXHA016:00: Pin group cannot be found
+[    2.456460] [pid:407,cpu0,(udev-worker)]sky1-pinctrl CIXHA016:00: does not have pin group pinctrl_substrate_i2s6_dbg
+[    2.467036] [pid:407,cpu0,(udev-worker)]sky1-pinctrl CIXHA016:00: Pin group cannot be found
+[    2.496308] [pid:407,cpu8,(udev-worker)]sky1-pinctrl CIXHA016:00: does not have pin group pinctrl_substrate_i2s7_dbg
+[    2.508849] [pid:407,cpu8,(udev-worker)]sky1-pinctrl CIXHA016:00: Pin group cannot be found
+[    2.519667] [pid:407,cpu6,(udev-worker)]sky1-pinctrl CIXHA016:00: does not have pin group pinctrl_substrate_i2s8_dbg
+[    2.530403] [pid:407,cpu0,(udev-worker)]sky1-pinctrl CIXHA016:00: Pin group cannot be found
+[    2.539624] [pid:407,cpu0,(udev-worker)]sky1-pinctrl CIXHA016:00: does not have pin group pinctrl_substrate_i2s9_dbg
+[    2.550195] [pid:407,cpu0,(udev-worker)]sky1-pinctrl CIXHA016:00: Pin group cannot be found
+[  OK  ] Created slice system-systemd\x2dbacklight.slice - Slice /system/systemd-backlight.
+         Starting systemd-backlight@backlight:CIXH5041:00.service - Load/Save Screen Backlight Brightness of backlight:CIXH5041:00...
+[  OK  ] Finished systemd-backlight@backlight:CIXH5041:00.service - Load/Save Screen Backlight Brightness of backlight:CIXH5041:00.
+[  OK  ] Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+         Starting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+         Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+         Starting modprobe@loop.service - Load Kernel Module loop...
+[  OK  ] Finished modprobe@dm_mod.service - Load Kernel Module dm_mod.
+[  OK  ] Finished modprobe@efi_pstore.service - Load Kernel Module efi_pstore.
+[  OK  ] Finished modprobe@loop.service - Load Kernel Module loop.
+[    2.872529] [pid:423,cpu1,(udev-worker)]armchina CIXH4000:00: sky1_npu_probe: armchina_aipu_probe done
+         Mounting boot-efi.mount - /boot/efi...
+         Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+[  OK  ] Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+[  OK  ] Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+[  OK  ] Mounted boot-efi.mount - /boot/efi.
+[  OK  ] Finished systemd-boot-update.service - Automatic Boot Loader Update.
+[  OK  ] Started systemd-timesyncd.service - Network Time Synchronization.
+[  OK  ] Reached target sysinit.target - System Initialization.
+[  OK  ] Started cups.path - CUPS Scheduler.
+[  OK  ] Started local-apt-repository.path.
+[  OK  ] Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+[  OK  ] Reached target paths.target - Path Units.
+[  OK  ] Reached target time-set.target - System Time Set.
+[  OK  ] Started apt-daily.timer - Daily apt download activities.
+[  OK  ] Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+[  OK  ] Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+[  OK  ] Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+[  OK  ] Started fstrim.timer - Discard unused blocks once a week.
+[  OK  ] Started fwupd-refresh.timer - Refresh fwupd metadata regularly.
+[  OK  ] Started man-db.timer - Daily man-db regeneration.
+[  OK  ] Reached target timers.target - Timer Units.
+[  OK  ] Listening on avahi-daemon.socket - Avahi mDNS/DNS-SD Stack Activation Socket.
+[  OK  ] Listening on cups.socket - CUPS Scheduler.
+[  OK  ] Listening on dbus.socket - D-Bus System Message Bus Socket.
+[  OK  ] Reached target sockets.target - Socket Units.
+[  OK  ] Reached target basic.target - Basic System.
+         Starting accounts-daemon.service - Accounts Service...
+         Starting alsa-restore.service - Save/Restore Sound Card State...
+         Starting avahi-daemon.service - Avahi mDNS/DNS-SD Stack...
+         Starting dbus.service - D-Bus System Message Bus...
+         Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+[  OK  ] Started irqbalance.service - irqbalance daemon.
+         Starting lm-sensors.service - Initialize hardware monitoring sensors...
+         Starting load-common-modules.service - Load common modules...
+         Starting load-gpu-modules.service - Load gpu modules...
+         Starting load-isp-modules.service - Load isp kernel modules...
+[  OK  ] Started rsetup.service - rsetup configuration service.
+         Starting rtkit-daemon.service - RealtimeKit Scheduling Policy Service...
+         Starting systemd-logind.service - User Login Management...
+         Starting udisks2.service - Disk Manager...
+         Starting upower.service - Daemon for power management...
+         Starting zramswap.service - Linux zramswap setup...
+[  OK  ] Started dbus.service - D-Bus System Message Bus.
+[  OK  ] Finished alsa-restore.service - Save/Restore Sound Card State.
+[  OK  ] Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+[  OK  ] Finished load-gpu-modules.service - Load gpu modules.
+[FAILED] Failed to start load-isp-modules.service - Load isp kernel modules.
+See 'systemctl status load-isp-modules.service' for details.
+[  OK  ] Reached target sound.target - Sound Card.
+         Starting NetworkManager.service - Network Manager...
+         Starting systemd-fsck@dev-disk-by\x2duuid-9C26\x2d3AB6.service - File System Check on /dev/disk/by-uuid/9C26-3AB6...
+         Starting wpa_supplicant.service - WPA supplicant...
+[  OK  ] Started avahi-daemon.service - Avahi mDNS/DNS-SD Stack.
+[  OK  ] Started rtkit-daemon.service - RealtimeKit Scheduling Policy Service.
+         Starting modprobe@drm.service - Load Kernel Module drm...
+[  OK  ] Finished systemd-fsck@dev-disk-by\x2duuid-9C26\x2d3AB6.service - File System Check on /dev/disk/by-uuid/9C26-3AB6.
+         Mounting config.mount - /config...
+[  OK  ] Finished modprobe@drm.service - Load Kernel Module drm.
+         Starting polkit.service - Authorization Manager...
+[  OK  ] Mounted config.mount - /config.
+[  OK  ] Started wpa_supplicant.service - WPA supplicant.
+[  OK  ] Started systemd-logind.service - User Login Management.
+[  OK  ] Started polkit.service - Authorization Manager.
+[  OK  ] Started upower.service - Daemon for power management.
+[  OK  ] Started accounts-daemon.service - Accounts Service.
+[  OK  ] Finished zramswap.service - Linux zramswap setup.
+[  OK  ] Started NetworkManager.service - Network Manager.
+[  OK  ] Reached target network.target - Network.
+[  OK  ] Reached target radxa-otgutils.target - Radxa USB OTG services.
+         Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+         Starting cups.service - CUPS Scheduler...
+[  OK  ] Started isp-daemon.service - ISP Daemon.
+         Starting systemd-user-sessions.service - Permit User Sessions...
+[  OK  ] Finished lm-sensors.service - Initialize hardware monitoring sensors.
+[  OK  ] Started udisks2.service - Disk Manager.
+         Starting systemd-hostnamed.service - Hostname Service...
+[  OK  ] Finished systemd-user-sessions.service - Permit User Sessions.
+         Starting gdm.service - GNOME Display Manager...
+         Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+[  OK  ] Started cups.service - CUPS Scheduler.
+[  OK  ] Started systemd-hostnamed.service - Hostname Service.
+         Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+[  OK  ] Finished load-common-modules.service - Load common modules.
+[  OK  ] Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+
+Debian GNU/Linux 12 RadxaOrionO6 ttyAMA0
+
+RadxaOrionO6 login: radxa
+Password: 
+Linux RadxaOrionO6 6.6.89-3-sky1 #3 SMP PREEMPT Mon Dec 15 11:06:55 UTC 2025 aarch64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jun 26 23:00:54 CST 2025 on ttyAMA0
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ kspci
+-bash: kspci: command not found
+radxa@RadxaOrionO6:~$ lspci
+00:00.0 PCI bridge: CIX Technology Group Co., Ltd. CIX P1 CD8180 PCI Express Root Port
+01:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8126 5GbE Controller (rev 01)
+30:00.0 PCI bridge: CIX Technology Group Co., Ltd. CIX P1 CD8180 PCI Express Root Port
+31:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8126 5GbE Controller (rev 01)
+90:00.0 PCI bridge: CIX Technology Group Co., Ltd. CIX P1 CD8180 PCI Express Root Port
+91:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller PM9C1a (DRAM-less)
+c0:00.0 PCI bridge: CIX Technology Group Co., Ltd. CIX P1 CD8180 PCI Express Root Port
+c1:00.0 Ethernet controller: Mellanox Technologies MT28800 Family [ConnectX-5 Ex]
+c1:00.1 Ethernet controller: Mellanox Technologies MT28800 Family [ConnectX-5 Ex]
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ ls
+radxa@RadxaOrionO6:~$ ip link
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN mode DEFAULT group default qlen 1000
+    link/ether 00:48:54:20:9b:19 brd ff:ff:ff:ff:ff:ff
+    altname enp1s0
+3: eth1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN mode DEFAULT group default qlen 1000
+    link/ether 00:48:54:20:9b:1a brd ff:ff:ff:ff:ff:ff
+    altname enp49s0
+radxa@RadxaOrionO6:~$ ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 00:48:54:20:9b:19 brd ff:ff:ff:ff:ff:ff
+    altname enp1s0
+3: eth1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 00:48:54:20:9b:1a brd ff:ff:ff:ff:ff:ff
+    altname enp49s0
+radxa@RadxaOrionO6:~$ ip
+Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }
+       ip [ -force ] -batch filename
+where  OBJECT := { address | addrlabel | amt | fou | help | ila | ioam | l2tp |
+                   link | macsec | maddress | monitor | mptcp | mroute | mrule |
+                   neighbor | neighbour | netconf | netns | nexthop | ntable |
+                   ntbl | route | rule | sr | tap | tcpmetrics |
+                   token | tunnel | tuntap | vrf | xfrm }
+       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |
+                    -h[uman-readable] | -iec | -j[son] | -p[retty] |
+                    -f[amily] { inet | inet6 | mpls | bridge | link } |
+                    -4 | -6 | -M | -B | -0 |
+                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |
+                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |
+                    -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |
+                    -c[olor]}
+radxa@RadxaOrionO6:~$ ibdevices
+-bash: ibdevices: command not found
+radxa@RadxaOrionO6:~$ ibdevice
+-bash: ibdevice: command not found
+radxa@RadxaOrionO6:~$ lsmod
+Module                  Size  Used by
+xt_MASQUERADE          16384  0
+iptable_nat            12288  0
+nf_nat                 49152  2 iptable_nat,xt_MASQUERADE
+nf_conntrack          135168  2 nf_nat,xt_MASQUERADE
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         12288  1 nf_conntrack
+libcrc32c              12288  2 nf_conntrack,nf_nat
+uhid                   16384  0
+zstd                   12288  12
+zram                   28672  2
+cfg80211              954368  0
+zsmalloc               28672  1 zram
+vfat                   20480  2
+fat                    77824  1 vfat
+binfmt_misc            24576  1
+crct10dif_ce           12288  1
+sm3_ce                 12288  0
+snd_hda_codec_realtek   192512  1
+sm3                    20480  1 sm3_ce
+sha3_ce                16384  0
+snd_hda_codec_generic    81920  1 snd_hda_codec_realtek
+sha512_ce              12288  0
+sha512_arm64           16384  1 sha512_ce
+snd_soc_hdmi_codec     24576  5
+ledtrig_audio          12288  1 snd_hda_codec_generic
+r8126                 180224  0
+tpm_tis                12288  0
+tpm_tis_core           28672  1 tpm_tis
+mali_kbase           1146880  10
+snd_hda_cix_ipbloq     24576  8
+snd_soc_sky1_sound_card    32768  6
+snd_soc_cdns_i2s_mc    24576  10
+snd_hda_codec         139264  3 snd_hda_codec_generic,snd_hda_codec_realtek,snd_hda_cix_ipbloq
+snd_soc_core          299008  3 snd_soc_sky1_sound_card,snd_soc_hdmi_codec,snd_soc_cdns_i2s_mc
+snd_hwdep              16384  1 snd_hda_codec
+snd_hda_core          110592  4 snd_hda_codec_generic,snd_hda_codec,snd_hda_codec_realtek,snd_hda_cix_ipbloq
+snd_compress           28672  1 snd_soc_core
+snd_pcm_dmaengine      16384  1 snd_soc_core
+snd_pcm               159744  7 snd_hda_codec,snd_soc_hdmi_codec,snd_compress,snd_soc_core,snd_soc_cdns_i2s_mc,snd_hda_core,snd_pcm_dmaengine
+snd_timer              40960  1 snd_pcm
+snd                    98304  38 snd_hda_codec_generic,snd_hwdep,snd_hda_codec,snd_hda_codec_realtek,snd_soc_hdmi_codec,snd_timer,snd_compress,snd_soc_core,snd_hda_cix_ipbloq,snd_pcm
+cix_dsp_rproc          24576  0
+soundcore              12288  1 snd
+protected_memory_allocator    16384  1
+amvx                  266240  0
+aipu                   98304  0
+memory_group_manager    20480  1
+armcb_isp_v4l2        245760  1
+arm_dma350             32768  5
+ledtrig_netdev         20480  0
+ledtrig_timer          12288  0
+ledtrig_pattern        12288  0
+ledtrig_heartbeat      12288  0
+ledtrig_default_on     12288  0
+loop                   32768  0
+fuse                  135168  5
+dm_mod                131072  0
+ip_tables              28672  1 iptable_nat
+x_tables               40960  3 ip_tables,iptable_nat,xt_MASQUERADE
+ipv6                  503808  62
+autofs4                45056  4
+rtc_efi                12288  1
+clk_sky1_audss         32768  19
+reset_sky1_audss       12288  9
+pwm_bl                 20480  0
+trilin_dpsub          110592  0
+drm_display_helper    159744  1 trilin_dpsub
+cec                    49152  1 drm_display_helper
+linlon_dp             114688  2
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ ls /sys/class/infiniband
+ls: cannot access '/sys/class/infiniband': No such file or directory
+radxa@RadxaOrionO6:~$ ls /sys/class/
+ata_device      graphics        pci_epc         sound
+ata_link        hf_manager      phy             spidev
+ata_port        hnae            pmsg            spi_master
+backlight       hwmon           power_supply    tee
+bbox            i2c-adapter     pps             thermal
+bdi             i2c-dev         ptp             tpm
+block           i3c-dev         pwm             tpmrm
+bsg             ieee80211       rc              tty
+chromeos        input           regulator       typec
+devcoredump     iommu           remoteproc      typec_mux
+devfreq         leds            retimer         udc
+devfreq-event   lirc            rfkill          usbmisc
+devlink         mdio_bus        rpmsg           usb_power_delivery
+dma             mem             rtc             usb_role
+dma_heap        misc            sas_device      vc
+dmi             mmc_host        sas_end_device  vfio
+drm             mtd             sas_expander    vfio-dev
+drm_dp_aux_dev  mux             sas_host        video4linux
+dvb             net             sas_phy         virtio-ports
+extcon          nvme            sas_port        vtconsole
+firmware        nvme-generic    scsi_device     wakeup
+fpga_manager    nvme-subsystem  scsi_disk       watchdog
+gpio            pci_bus         scsi_host       zram-control
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ ls /sys/bus/pci/devices
+0000:00:00.0  0000:30:00.0  0000:90:00.0  0000:c0:00.0  0000:c1:00.1
+0000:01:00.0  0000:31:00.0  0000:91:00.0  0000:c1:00.0
+radxa@RadxaOrionO6:~$ ls /sys/bus/pci/devices/0000:c1:00.1
+aer_dev_correctable       link            revision
+aer_dev_fatal             local_cpulist   rom
+aer_dev_nonfatal          local_cpus      sriov_drivers_autoprobe
+ari_enabled               max_link_speed  sriov_numvfs
+broken_parity_status      max_link_width  sriov_offset
+class                     modalias        sriov_stride
+config                    msi_bus         sriov_totalvfs
+consistent_dma_mask_bits  numa_node       sriov_vf_device
+current_link_speed        power           sriov_vf_total_msix
+current_link_width        power_state     subsystem
+d3cold_allowed            remove          subsystem_device
+device                    rescan          subsystem_vendor
+devspec                   reset           uevent
+dma_mask_bits             reset_method    vendor
+driver_override           resource        vpd
+enable                    resource0
+irq                       resource0_wc
+radxa@RadxaOrionO6:~$ ls /sys/bus/pci/devices/0000:c1:00.1/
+aer_dev_correctable       link            revision
+aer_dev_fatal             local_cpulist   rom
+aer_dev_nonfatal          local_cpus      sriov_drivers_autoprobe
+ari_enabled               max_link_speed  sriov_numvfs
+broken_parity_status      max_link_width  sriov_offset
+class                     modalias        sriov_stride
+config                    msi_bus         sriov_totalvfs
+consistent_dma_mask_bits  numa_node       sriov_vf_device
+current_link_speed        power           sriov_vf_total_msix
+current_link_width        power_state     subsystem
+d3cold_allowed            remove          subsystem_device
+device                    rescan          subsystem_vendor
+devspec                   reset           uevent
+dma_mask_bits             reset_method    vendor
+driver_override           resource        vpd
+enable                    resource0
+irq                       resource0_wc
+radxa@RadxaOrionO6:~$ cat /sys/bus/pci/devices/0000:c1:00.1/*
+RxErr 0
+BadTLP 0
+BadDLLP 0
+Rollover 0
+Timeout 0
+NonFatalErr 0
+CorrIntErr 0
+HeaderOF 0
+TOTAL_ERR_COR 0
+Undefined 0
+DLP 0
+SDES 0
+TLP 0
+FCP 0
+CmpltTO 0
+CmpltAbrt 0
+UnxCmplt 0
+RxOF 0
+MalfTLP 0
+ECRC 0
+UnsupReq 0
+ACSViol 0
+UncorrIntErr 0
+BlockedTLP 0
+AtomicOpBlocked 0
+TLPBlockedErr 0
+PoisonTLPBlocked 0
+TOTAL_ERR_FATAL 0
+Undefined 0
+DLP 0
+SDES 0
+TLP 0
+FCP 0
+CmpltTO 0
+CmpltAbrt 0
+UnxCmplt 0
+RxOF 0
+MalfTLP 0
+ECRC 0
+UnsupReq 0
+ACSViol 0
+UncorrIntErr 0
+BlockedTLP 0
+AtomicOpBlocked 0
+TLPBlockedErr 0
+PoisonTLPBlocked 0
+TOTAL_ERR_NONFATAL 0
+0
+0
+0x020000
+��
+  `32
+16.0 GT/s PCIe
+8
+1
+0x1019
+32
+(null)
+0
+0
+cat: '/sys/bus/pci/devices/0000:c1:00.1/link': Is a directory
+0-11
+fff
+16.0 GT/s PCIe
+16
+pci:v000015B3d00001019sv000015B3sd00000008bc02sc00i00
+1
+-1
+cat: '/sys/bus/pci/devices/0000:c1:00.1/power': Is a directory
+unknown
+cat: '/sys/bus/pci/devices/0000:c1:00.1/remove': Permission denied
+cat: '/sys/bus/pci/devices/0000:c1:00.1/rescan': Permission denied
+cat: '/sys/bus/pci/devices/0000:c1:00.1/reset': Permission denied
+flr
+0x0000001802000000 0x0000001803ffffff 0x000000000014220c
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000060400000 0x00000000604fffff 0x0000000000046200
+0x000000180c000000 0x0000001813ffffff 0x000000000014220c
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+cat: '/sys/bus/pci/devices/0000:c1:00.1/resource0': Permission denied
+cat: '/sys/bus/pci/devices/0000:c1:00.1/resource0_wc': Permission denied
+0x00
+cat: '/sys/bus/pci/devices/0000:c1:00.1/rom': Permission denied
+1
+0
+65
+1
+64
+101a
+0
+cat: '/sys/bus/pci/devices/0000:c1:00.1/subsystem': Is a directory
+0x0008
+0x15b3
+PCI_CLASS=20000
+PCI_ID=15B3:1019
+PCI_SUBSYS_ID=15B3:0008
+PCI_SLOT_NAME=0000:c1:00.1
+MODALIAS=pci:v000015B3d00001019sv000015B3sd00000008bc02sc00i00
+0x15b3
+cat: '/sys/bus/pci/devices/0000:c1:00.1/vpd': Permission denied
+radxa@RadxaOrionO6:~$ sudo cat /sys/bus/pci/devices/0000:c1:00.1/*
+[sudo] password for radxa: 
+RxErr 0
+BadTLP 0
+BadDLLP 0
+Rollover 0
+Timeout 0
+NonFatalErr 0
+CorrIntErr 0
+HeaderOF 0
+TOTAL_ERR_COR 0
+Undefined 0
+DLP 0
+SDES 0
+TLP 0
+FCP 0
+CmpltTO 0
+CmpltAbrt 0
+UnxCmplt 0
+RxOF 0
+MalfTLP 0
+ECRC 0
+UnsupReq 0
+ACSViol 0
+UncorrIntErr 0
+BlockedTLP 0
+AtomicOpBlocked 0
+TLPBlockedErr 0
+PoisonTLPBlocked 0
+TOTAL_ERR_FATAL 0
+Undefined 0
+DLP 0
+SDES 0
+TLP 0
+FCP 0
+CmpltTO 0
+CmpltAbrt 0
+UnxCmplt 0
+RxOF 0
+MalfTLP 0
+ECRC 0
+UnsupReq 0
+ACSViol 0
+UncorrIntErr 0
+BlockedTLP 0
+AtomicOpBlocked 0
+TLPBlockedErr 0
+PoisonTLPBlocked 0
+TOTAL_ERR_NONFATAL 0
+0
+0
+0x020000
+��
+  `� H�_)       qA���? 0        @   �#@@A�
+
+B%�32
+16.0 GT/s PCIe
+8
+1
+0x1019
+32
+(null)
+0
+0
+cat: '/sys/bus/pci/devices/0000:c1:00.1/link': Is a directory
+0-11
+fff
+16.0 GT/s PCIe
+16
+pci:v000015B3d00001019sv000015B3sd00000008bc02sc00i00
+1
+-1
+cat: '/sys/bus/pci/devices/0000:c1:00.1/power': Is a directory
+unknown
+cat: '/sys/bus/pci/devices/0000:c1:00.1/remove': Permission denied
+cat: '/sys/bus/pci/devices/0000:c1:00.1/rescan': Permission denied
+cat: '/sys/bus/pci/devices/0000:c1:00.1/reset': Permission denied
+flr
+0x0000001802000000 0x0000001803ffffff 0x000000000014220c
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000060400000 0x00000000604fffff 0x0000000000046200
+0x000000180c000000 0x0000001813ffffff 0x000000000014220c
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+0x0000000000000000 0x0000000000000000 0x0000000000000000
+cat: '/sys/bus/pci/devices/0000:c1:00.1/resource0': Input/output error
+cat: '/sys/bus/pci/devices/0000:c1:00.1/resource0_wc': Input/output error
+0x00
+cat: '/sys/bus/pci/devices/0000:c1:00.1/rom': Invalid argument
+1
+0
+65
+1
+64
+101a
+0
+cat: '/sys/bus/pci/devices/0000:c1:00.1/subsystem': Is a directory
+0x0008
+0x15b3
+PCI_CLASS=20000
+PCI_ID=15B3:1019
+PCI_SUBSYS_ID=15B3:0008
+PCI_SLOT_NAME=0000:c1:00.1
+MODALIAS=pci:v000015B3d00001019sv000015B3sd00000008bc02sc00i00
+0x15b3
+�CX516A - ConnectX-5 QSFP28��PNMCX516A-CDAT    ECAAV2MCX516A-CDAT    SNMT2017X21702          V3 40cb85e9728aea1180000c42a16a9450VA.MLX:MODL=CX516A:MN=MLNX:CSKU=V2:UUID=V3:PCI=V0V0
+                                                                                                                                                                                   PCIeGen4 x16RV�xradxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ uname -a
+Linux RadxaOrionO6 6.6.89-3-sky1 #3 SMP PREEMPT Mon Dec 15 11:06:55 UTC 2025 aarch64 GNU/Linux
+radxa@RadxaOrionO6:~$ uname
+Linux
+radxa@RadxaOrionO6:~$ uname -a
+Linux RadxaOrionO6 6.6.89-3-sky1 #3 SMP PREEMPT Mon Dec 15 11:06:55 UTC 2025 aarch64 GNU/Linux
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ cat /etc/os-release 
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
+radxa@RadxaOrionO6:~$ 
