@@ -7,3 +7,6 @@
 [submodule "boards/qemu-amd-sev-snp-cc/containers"]
 	path = boards/qemu-amd-sev-snp-cc/containers
 	url = https://github.com/tianocore/containers
+[submodule "boards/qemu-amd-sev-snp-cc/edk2"]
+	path = boards/qemu-amd-sev-snp-cc/edk2
+	url = https://github.com/tianocore/edk2

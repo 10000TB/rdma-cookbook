@@ -1,18 +1,16 @@
-FROM ghcr.io/tianocore/containers/ubuntu-22-dev:latest
+#FROM ghcr.io/tianocore/containers/ubuntu-22-dev:latest
+FROM docker pull ghcr.io/tianocore/containers/ubuntu-22-dev:34f8c50
 
-# Install build dependencies
 RUN apt-get update && apt-get install -y \
+    grub2-common \
     build-essential \
+    git \
     uuid-dev \
     iasl \
     nasm \
     python3 \
-    git \
-    qemu-system-x86 \
-    && rm -rf /var/lib/apt/lists/*
-
-RUN apt-get update && apt-get install -y grub2-common
-RUN apt-get install -y build-essential git uuid-dev iasl nasm python3 python3-distutils gcc
+    python3-distutils \
+    gcc
 
 # Build command (example)
 # RUN make -C BaseTools
