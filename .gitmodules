@@ -4,3 +4,6 @@
 [submodule "boards/radxa-orion-o6-cx5/linux-sky1"]
 	path = boards/radxa-orion-o6-cx5/linux-sky1
 	url = https://github.com/radxa-pkg/linux-sky1.git
+[submodule "boards/qemu-amd-sev-snp-cc/containers"]
+	path = boards/qemu-amd-sev-snp-cc/containers
+	url = https://github.com/tianocore/containers
