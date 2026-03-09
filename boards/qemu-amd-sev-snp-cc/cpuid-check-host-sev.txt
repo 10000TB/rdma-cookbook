@@ -1,0 +1,49 @@
+(nested virt)
+
+$ lsmod | grep kvm
+kvm_intel             458752  0
+kvm                  1576960  1 kvm_intel
+irqbypass              16384  1 kvm
+$ sudo modprobe kvm_amd
+modprobe: ERROR: could not insert 'kvm_amd': Operation not supported
+$
+$ cpuid -1 -l 0x8000001f
+CPU:
+   AMD Secure Encryption (0x8000001f):
+      SME: secure memory encryption support    = false
+      SEV: secure encrypted virtualize support = false
+      VM page flush MSR support                = false
+      SEV-ES: SEV encrypted state support      = true
+      SEV-SNP: SEV secure nested paging        = false
+      VMPL: VM permission levels               = true
+      RMPQUERY instruction support             = false
+      VMPL supervisor shadow stack support     = false
+      Secure TSC supported                     = false
+      virtual TSC_AUX supported                = true
+      hardware cache coher across enc domains  = false
+      SEV guest exec only from 64-bit host     = true
+      restricted injection                     = false
+      alternate injection                      = false
+      full debug state swap for SEV-ES/SEV-SNP = false
+      disallowing IBS use by host              = false
+      VTE: SEV virtual transparent encryption  = false
+      VMGEXIT parameter support                = false
+      virtual TOM MSR support                  = false
+      IBS virtual support for SEV-ES/SEV-SNP   = false
+      PMC virtual support for SEV-ES/SEV-SNP   = false
+      RMPREAD instruction                      = false
+      guest intercept control support          = false
+      segmented RMP support                    = false
+      VMSA register protection support         = false
+      SMT protection support                   = false
+      secure AVIC support                      = false
+      allowed SEV features support             = false
+      SVSM communication page MSR support      = false
+      VIRT_RMPUPDATE & VIRT_PSMASH MSR support = false
+      write to hypervisor in-used allowed      = false
+      IBPB on entry support                    = false
+      encryption bit position in PTE           = 0x2c (44)
+      physical address space width reduction   = 0x36 (54)
+      number of VM permission levels           = 0x0 (0)
+      number of SEV-enabled guests supported   = 0x64 (100)
+      minimum SEV guest ASID                   = 0x0 (0)
