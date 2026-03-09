@@ -5,7 +5,8 @@ Explore running Llama3, and Qwen 2.5 on the two nodes, with RDMA connections.
 
 ## Finished Setup
 
-<video src='setup-video.mov' width=180/>
+![finished-setup.jpeg](finished-setup.jpeg)
+
 
 ## Overview
 
