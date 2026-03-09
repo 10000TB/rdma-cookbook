@@ -1,3 +1,5 @@
+# Ref: https://ubuntu.com/server/docs/how-to/virtualisation/sev-snp/
+#
 (nested virt)
 
 $ lsmod | grep kvm
