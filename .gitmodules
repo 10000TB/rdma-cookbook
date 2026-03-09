@@ -10,3 +10,6 @@
 [submodule "boards/qemu-amd-sev-snp-cc/edk2"]
 	path = boards/qemu-amd-sev-snp-cc/edk2
 	url = https://github.com/tianocore/edk2
+[submodule "boards/qemu-amd-sev-snp-cc/AMDSEV"]
+	path = boards/qemu-amd-sev-snp-cc/AMDSEV
+	url = git@github.com:AMDESE/AMDSEV.git
