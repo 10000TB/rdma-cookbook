@@ -3,6 +3,10 @@
 Explore RDMA connection with two Mellanox Connect-X 5 Adapters and two Radxa Orion O6 motherboard.    
 Explore running Llama3, and Qwen 2.5 on the two nodes, with RDMA connections.
 
+## Finished Setup
+
+<video src='setup-video.mov' width=180/>
+
 ## Overview
 
 ![2-radxa-orion-o6-2-cx5](2-radxa-orion-o6-2-cx5.svg)
