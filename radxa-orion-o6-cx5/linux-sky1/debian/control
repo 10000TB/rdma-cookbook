@@ -1,0 +1,78 @@
+Source: linux-sky1
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Section: admin
+Priority: standard
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>=12~),
+               devscripts,
+               lintian,
+               dh-exec,
+               flex,
+               bison,
+               bc,
+               libncurses-dev,
+               libssl-dev,
+
+Package: linux-image-orion-o6
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-image,
+          cix-csidma-driver,
+Depends: radxa-overlays-dkms,
+         linux-image-${binary:Version}-sky1,
+         ${misc:Depends},
+Description: Radxa Linux meta-package for Orion O6
+ This is the meta-package for Linux kernel.
+
+Package: linux-headers-orion-o6
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-headers
+Depends: linux-headers-${binary:Version}-sky1,
+         ${misc:Depends},
+Description: Radxa Linux headers meta-package for Orion O6
+ This is the meta-package for Linux headers.
+
+Package: linux-libc-dev-orion-o6
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-libc-dev
+Depends: linux-libc-dev-${binary:Version}-sky1,
+         ${misc:Depends},
+Description: Radxa Linux libc-dev meta-package for Orion O6
+ This is the meta-package for Linux libc-dev.
+
+Package: linux-image-radxa-orion-cix-p1
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-image,
+          cix-csidma-driver,
+Depends: radxa-overlays-dkms,
+         linux-image-${binary:Version}-sky1,
+         ${misc:Depends},
+Description: Radxa Linux meta-package for generic CIX P1 image
+ This is the meta-package for Linux kernel.
+
+Package: linux-headers-radxa-orion-cix-p1
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-headers
+Depends: linux-headers-${binary:Version}-sky1,
+         ${misc:Depends},
+Description: Radxa Linux headers meta-package for generic CIX P1 image
+ This is the meta-package for Linux headers.
+
+Package: linux-libc-dev-radxa-orion-cix-p1
+Architecture: all
+Section: kernel
+Priority: optional
+Provides: linux-libc-dev
+Depends: linux-libc-dev-${binary:Version}-sky1,
+         ${misc:Depends},
+Description: Radxa Linux libc-dev meta-package for generic CIX P1 image
+ This is the meta-package for Linux libc-dev.

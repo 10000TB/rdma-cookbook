@@ -1,0 +1,76 @@
+linux-sky1 (6.6.89-4) unstable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: limit package release to related SoC repo
+  * chore: update to 25Q4 SDK
+  * fix: update invalid submodule branch name
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 05 Mar 2026 11:53:49 +0000
+
+linux-sky1 (6.6.89-3) unstable; urgency=medium
+
+  [ Zhaoming Luo ]
+  * feat: cix linux kernel also provides cix-csidma-driver
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 15 Dec 2025 09:21:34 +0000
+
+linux-sky1 (6.6.89-2) unstable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * feat: add radxa-orion-cix-p1 metapackages
+
+  [ Zhaoming Luo ]
+  * fix: disable the native armcb isp driver
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 28 Nov 2025 11:32:41 +0000
+
+linux-sky1 (6.6.89-1) unstable; urgency=medium
+
+  [ "Radxa Computer Co., Ltd" ]
+  * chore: update to CIX 2025.04 release
+
+  [ ZHANG Yuntian ]
+  * chore: update template
+  * chore: update template
+  * fix: install host dependency
+  * feat: import CIX WIP patches
+  * fix: correct file path
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 06 Nov 2025 08:14:10 +0000
+
+linux-sky1 (6.6.10-1) UNRELEASED; urgency=medium
+
+  * chore: update to CIX 2025.04 release
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 21 May 2025 09:22:47 +0000
+
+linux-sky1 (6.1.44-2) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: correct wrong values and remove unused values
+  * feat: enable Squashfs
+  * fix: add back configurations to expected places
+  * chore: update to the latest SDK release
+  * fix: clean up old Yml
+  * chore: update to the latest SDK release
+  * fix: allow submodule update action to work
+
+  [ Bill Sideris ]
+  * feat: Add nls_ascii and nls_iso8859_1
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 25 Apr 2025 11:36:11 +0000
+
+linux-sky1 (6.1.44-1) jammy; urgency=medium
+
+  * Add initial Debian packaging support
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 12 Aug 2024 16:00:41 +0800

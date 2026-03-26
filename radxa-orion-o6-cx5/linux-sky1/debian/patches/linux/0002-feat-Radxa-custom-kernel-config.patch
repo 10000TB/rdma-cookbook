@@ -1,0 +1,36 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: ZHANG Yuntian <yt@radxa.com>
+Date: Thu, 09 Jan 2025 06:22:08 +0000
+Subject: [PATCH] feat: Radxa custom kernel config
+
+Signed-off-by: ZHANG Yuntian <yt@radxa.com>
+---
+ src/arch/arm64/configs/radxa_custom.config | 16 +++++++++++++
+ 1 file changed, 16 insertions(+)
+ create mode 100644 src/arch/arm64/configs/radxa_custom.config
+
+diff --git a/src/arch/arm64/configs/radxa_custom.config b/src/arch/arm64/configs/radxa_custom.config
+new file mode 100644
+index 000000000000..c26829dd1cae
+--- /dev/null
++++ b/src/arch/arm64/configs/radxa_custom.config
+@@ -0,0 +1,16 @@
++# Closed source mali kernel module requires CONFIG_PREEMPT_RCU
++CONFIG_PREEMPT_VOLUNTARY=n
++CONFIG_PREEMPT=y
++CONFIG_PREEMPT_RCU=y
++
++# Overlay support breaks boot
++CONFIG_OF_OVERLAY=n
++
++# This breaks Mali driver and cause system reboot
++CONFIG_RT_GROUP_SCHED=n
++
++# CIX drm_gpuvm.h is incompatible with nouveau
++CONFIG_DRM_NOUVEAU=n
++
++# The built-in ISP driver has conflicts with the v4l2 ISP driver
++CONFIG_CAMERA_ARMCB=n
+-- 
+2.47.1
+
