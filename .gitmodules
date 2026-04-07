@@ -13,3 +13,6 @@
 [submodule "qemu-amd-sev-snp-cc/AMDSEV"]
 	path = qemu-amd-sev-snp-cc/AMDSEV
 	url = git@github.com:AMDESE/AMDSEV.git
+[submodule "radxa-orion-o6-cx5/fw/linux-firmware"]
+	path = radxa-orion-o6-cx5/fw/linux-firmware
+	url = https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
